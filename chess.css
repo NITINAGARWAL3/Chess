@@ -1,0 +1,26 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(8, 75px);
+    grid-template-rows: repeat(8, 75px);
+    grid-gap: 1px;
+}
+
+.square {
+    border: 1px solid black;
+}
+
+.square.white {
+    background-color: white;
+}
+
+.square.black {
+    background-color: black;
+}
